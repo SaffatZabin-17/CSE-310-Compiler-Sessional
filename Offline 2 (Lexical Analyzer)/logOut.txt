@@ -1,0 +1,30 @@
+Line# 1: Token <CONST_FLOAT> Lexeme 1.2 found
+Error at line# 1: UNRECOGNIZED_CHAR .
+Line# 1: Token <CONST_INT> Lexeme 345 found
+Error at line# 2: ILLFORMED_NUMBER 1E10.7
+Error at line# 3: INVALID_ID_SUFFIX_NUM_PREFIX 12abcd
+Error at line# 4: UNRECOGNIZED_CHAR @
+Error at line# 5: MULTICHAR_CONST_CHAR 'ab'
+Error at line# 6: UNFINISHED_CONST_CHAR 'a
+Error at line# 7: UNFINISHED_CONST_CHAR '
+Error at line# 8: UNFINISHED_CONST_CHAR 'ab
+line# 8: Token <ID> Lexeme cd found
+	ScopeTable# 1
+	2--> <cd,ID> 
+Error at line# 8: UNFINISHED_CONST_CHAR '
+Error at line# 9: UNFINISHED_CONST_CHAR '\'
+Error at line# 10: EMPTY_CONST_CHAR ''
+Error at line# 11: UNFINISHED_STRING "abcd
+Error at line# 12: UNFINISHED_STRING "abcd\
+efgh
+line# 14: Token <ID> Lexeme ijk found
+	ScopeTable# 1
+	2--> <cd,ID> 
+	7--> <ijk,ID> 
+Error at line# 14: UNFINISHED_STRING "
+Error at line# 15: UNFINISHED_COMMENT /**abcdef
+	ScopeTable# 1
+	2--> <cd,ID> 
+	7--> <ijk,ID> 
+Total lines: 15
+Total errors: 13
